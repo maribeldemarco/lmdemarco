@@ -252,12 +252,12 @@ flex-direction: column;
 
   .animacioniconos {width: 80%;}
 
-  .iconosdelformulario {margin-left: 40px ;}
+  .iconosdelformulario {margin-left: 19px ;
+    padding-top: 15px;}
 
 
   .formulario {width: 100% !important;
     padding-left: 1rem;
 margin-bottom:15px;
   }
-  .iconosdelformulario {padding-top: 15px;}
 }
