@@ -245,3 +245,19 @@ flex-direction: column;
   }
 }
 
+
+@media screen and  (max-width:600px) {
+ .letrascel {font-size: 17px;
+  }
+
+  .animacioniconos {width: 80%;}
+
+  .iconosdelformulario {margin-left: 40px ;}
+
+
+  .formulario {width: 100% !important;
+    padding-left: 1rem;
+margin-bottom:15px;
+  }
+  .iconosdelformulario {padding-top: 15px;}
+}
