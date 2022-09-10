@@ -4,14 +4,17 @@ padding: 0;
 box-sizing: border-box !important;
 text-decoration: none;
 text-align: center;
-
 }
+
+
 
 .formulario {display: flex;
 width: 70%!important;
 flex-direction: column;
 margin-left: 0px;
 padding-left: 3rem;}
+
+
 
 #presentacionppal {
   position: absolute;
@@ -23,9 +26,8 @@ padding-left: 3rem;}
 position: absolute;
 right:10px;
 display: flex;
-
-
 }
+
 
 .flexcartascontacto {
 margin-top: 50px !important;
@@ -33,18 +35,16 @@ margin-left: 0px;
 padding-bottom: 1rem;
 padding-left:0px;
 padding-right: 0px;
-  display: flex;
-  flex-direction: row;
+display: flex;
+flex-direction: row;
 width: 95% !important;
 justify-content: space-around !important;
-
 }
 
 
 
- .tituloanimado{font-size:1.5rem !important;
+.tituloanimado{font-size:1.5rem !important;
 background-color: rgb(34, 33, 34);}
-
 
 
 .tituloanimado span
@@ -53,9 +53,11 @@ background-color: rgb(34, 33, 34);}
   display: inline-block;
   font-size: 40px;
   color: #fff;
-   animation: flip 5s infinite;
+  animation: flip 5s infinite;
   animation-delay: calc(.1s * var(--i));
 }
+
+
 @keyframes flip {
   0%,80% {
     transform: rotateY(360deg) ;
@@ -67,20 +69,19 @@ background-color: rgb(34, 33, 34);}
 #cartaporfoliofondo  {width: 86% !important;
 font-size: 1.5rem;
 font-family:   'Lato', sans-serif !important;
-
 padding-top: 1rem !important;
 padding-bottom: 1rem !important;
 margin: auto;
-
 }
 
 
 
 .animacioniconos  { padding-bottom: 1rem;
-
 }
 
+
 .cartasombra {box-shadow: 10px 10px 10px rgb(86, 86, 86);}
+
 
 .flexcartas1 {display: flex;
 justify-content: space-around;
@@ -88,23 +89,22 @@ column-gap: 2rem;
 padding: 3rem;
 }
 
+
 .flexcartas2 {display: flex;
 justify-content: space-around;
 padding-bottom: 2rem;
 padding-top:3rem;
-
 }
 
-.flexcartasiconos {display: flex;
- flex-direction: column;
-padding-right: 0px;
 
+.flexcartasiconos {display: flex;
+flex-direction: column;
+padding-right: 0px;
 }
 
 
 .cartaajedrezyvida {
 border-radius: 5px !important;
-
 }
 
 
@@ -115,19 +115,18 @@ align-items: center;
 
 
 .iconosdelformulario {display: flex;
-  flex-direction: column;
-  align-items: center;
+flex-direction: column;
+align-items: center;
 margin-bottom: 1.5rem !important;
 margin-left: 70px;
-
-
-
-  }
+}
 
 
 .iconostec img {
-  max-width: 64px !important
+max-width: 64px !important
   }
+
+
 
 #navbar { position:sticky !important;
 width: 100% !important;
@@ -135,18 +134,16 @@ z-index: 45;
 top:0px !important;
 margin-bottom: 0px !important;
 background-color: rgba(57, 101, 86, 0.963) !important;
-
 }
+
+
 
 #banners {
-  width: 100% !important;
-
+width: 100% !important;
 }
-
 
 
 .presentacionppal {
-
 width:100% !important;
 padding: 5px;
 background-color: rgba(159, 161, 155, 0.11);
@@ -154,25 +151,24 @@ font-family:  'Alumni Sans Pinstripe' !important;
 font-size: 30px !important;
 }
 
+
 .presentacion  {
-   margin: auto;
-  margin-top: 20px;
+ margin: auto;
+ margin-top: 20px;
  }
+
+
 
   a:link, a:visited,  a:hover, a:active
 {
     color: #000000;
     text-decoration: none;
-  
 }
-
-
 
 
 #iconostec { 
 text-align: center;
 }
-
 
 
 /* aca empiezan los media queries*/
@@ -183,7 +179,10 @@ text-align: center;
       
    }
 
-   @media only screen and (min-width: 992px) {
+ 
+ 
+
+@media only screen and (min-width: 992px) {
   
     #itemscel {display: none;}
         
@@ -192,36 +191,38 @@ text-align: center;
 
 
 
-     @media screen and  (max-width:960px) {
-      #cartaporfoliofondo {width: 99% !important;
-        margin: auto;
-    
-        box-sizing: border-box !important;
-      }
-      .tituloanimado span {font-size: 30px;}
-      .presentacionppal {font-size: 26px !important;}
+@media screen and  (max-width:960px) {
 
+ #cartaporfoliofondo {width: 99% !important;
+ margin: auto;
+ box-sizing: border-box !important;
+      }
+
+.tituloanimado span {font-size: 30px;}
+
+.presentacionppal {font-size: 26px !important;}
     }
       
 
-      @media screen and  (max-width:600px) {
-        #cartaporfoliofondo {width: 98% !important;
-          margin: auto;
-         box-sizing: border-box !important;
-        }
-      
-    br { display: none;}
+@media screen and  (max-width:600px) {
 
-        .tituloanimado span {font-size: 28px;}
-        .presentacionppal {font-size: 26px !important;}
-           .letrascel {font-size:21px ;}
+#cartaporfoliofondo {width: 98% !important;
+margin: auto;
+box-sizing: border-box !important;
+    }
+   
+br { display: none;}
+
+.tituloanimado span {font-size: 28px;}
+
+.presentacionppal {font-size: 26px !important;}
+
+.letrascel {font-size:21px ;}
 
 .flexcartas1, .flexcartas2 {display: flex;
 flex-direction: column;
 }
-
-
-         }
+  }
     
 
  .animacioniconos:hover {
@@ -254,7 +255,6 @@ flex-direction: column;
 
   .iconosdelformulario {margin-left: 19px ;
     padding-top: 15px;}
-
 
   .formulario {width: 100% !important;
     padding-left: 1rem;
